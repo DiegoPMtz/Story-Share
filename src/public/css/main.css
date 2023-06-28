@@ -1,0 +1,63 @@
+body{
+    background:cadetblue ;
+}
+
+.logo{
+    width: 20%;
+}
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
+.description {
+    overflow: hidden;
+    height: 50px; /* Ajustar la altura para mostrar el número deseado de líneas inicialmente */
+    transition: height 0.3s ease-in-out;
+  }
+
+  .show-full-description {
+    height: auto;
+  }
+  .read-more {
+    display:ruby;
+    color: blue;
+    cursor: pointer;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }

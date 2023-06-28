@@ -1,0 +1,112 @@
+<section class="jumbotron text-center  mt-5">
+    <div class="container">
+        <h1 class="display-4 text-white">¡Crea una cuenta y publica tus historias!</h1>
+        <p class="lead text-white">Destaca tus habilidades y muestra tus proyectos al mundo</p>
+    </div>
+</section>
+
+<section class="container">
+    <h3 class="text-center text-white">Características principales de nuestra plataforma:</h3>
+    <ul class="list-group">
+        <li class="list-group-item"><i class="fas fa-check mr-2"></i> Crea un perfil personalizado para mostrar tu
+            información y experiencia.</li>
+        <li class="list-group-item"><i class="fas fa-check mr-2"></i> Sube y organiza tus trabajos en categorías
+            relevantes.</li>
+        <li class="list-group-item"><i class="fas fa-check mr-2"></i> Recibe comentarios y feedback de otros usuarios
+            para mejorar tus proyectos.</li>
+        <li class="list-group-item"><i class="fas fa-check mr-2"></i> Conecta con otros profesionales y colabora en
+            proyectos conjuntos.</li>
+    </ul>
+</section>
+<div class="container text-justify">
+    <h1 class=" display4 mb-1 text-white mt-5"> "El Abismo de las Sombras</h5>
+        <div class="row">
+            <div class="col-md-6-h-25">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h5 class="mb-1"> El misterio del Abismo</h5>
+                        <p class="mb-1 description">En un rincón remoto y olvidado del mundo, se encontraba un pequeño
+                            pueblo rodeado de un denso y misterioso bosque. Los habitantes del lugar vivían en constante
+                            intriga y asombro debido a la existencia de un abismo profundo que se ubicaba en medio de
+                            aquel frondoso bosque.
+
+                            Este abismo, conocido como el Abismo de las Sombras, emanaba una presencia inquietante y
+                            provocaba una extraña atracción en aquellos que se aventuraban a acercarse. Los rumores y
+                            las leyendas se multiplicaban sobre las criaturas oscuras y temibles que se decía habitaban
+                            en su interior, emergiendo solo cuando la noche envolvía al pueblo.
+
+                            Entre los habitantes de aquel lugar se encontraba un joven llamado Erik. Curioso e impulsivo
+                            por naturaleza, Erik siempre había sentido una irresistible fascinación por el abismo. Cada
+                            noche, se asomaba desde lo alto de un acantilado cercano y contemplaba el abismo,
+                            preguntándose qué secretos se ocultaban en sus profundidades.
+
+                            A medida que pasaban los años, la obsesión de Erik por el abismo crecía sin cesar. Sus
+                            amigos y vecinos le advertían sobre los peligros que podría enfrentar si se aventuraba más
+                            allá del acantilado, pero su deseo de desentrañar el misterio se volvía más fuerte cada día.
+                        </p>
+                        <button class="btn btn-primary" onclick="toggleDescription(this)">Ver descripción
+                            completa</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6-h-25   ">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h5 class="mb-1">El llamado de la oscuridad</h5>
+                        <p class="mb-1 description">Un día, impulsado por su valentía y su incansable curiosidad, Erik
+                            decidió que había llegado el momento de enfrentar sus miedos y adentrarse en el bosque hasta
+                            llegar al abismo. Sus amigos y familiares trataron de disuadirlo, preocupados por su
+                            seguridad, pero Erik estaba decidido a descubrir la verdad.
+
+                            Con una mochila llena de provisiones y su corazón lleno de determinación, Erik se adentró en
+                            el oscuro y denso bosque. La vegetación se volvía cada vez más espesa y la oscuridad lo
+                            envolvía por completo. A cada paso que daba, podía sentir la presencia del abismo
+                            llamándolo, atrayéndolo hacia su enigmático interior.</p>
+                        <button class="btn btn-primary" onclick="toggleDescription(this)">Ver descripción
+                            completa</button>
+                    </li>
+                    <li class="list-group-item">
+                        <h5 class="mb-1"> La travesía hacia lo desconocido</h5>
+                        <p class="mb-1 description">El camino hacia el abismo no era sencillo. Erik se enfrentó a densos
+                            arbustos y ramas retorcidas que parecían conspirar en su contra. Sin embargo, su
+                            determinación lo impulsaba a seguir adelante, sin importar los obstáculos que se
+                            interpusieran en su camino.
+
+                            La noche comenzó a caer y las sombras se alargaron entre los árboles. El viento soplaba
+                            susurros ininteligibles, como si el bosque intentara disuadir a Erik de su búsqueda. Pero él
+                            no se dejaba intimidar. Con una linterna en mano, avanzaba con cautela hacia lo desconocido.
+
+                            Finalmente, después de una ardua travesía, Erik llegó al borde del abismo. Contempló la
+                            inmensidad del vacío que se abría ante sus ojos y, en ese momento, una criatura oscura
+                            emergió de las profundidades. Tenía ojos brillantes y garras afiladas, pero en lugar de
+                            atacar a Erik</p>
+                        <button class="btn btn-primary" onclick="toggleDescription(this)">Ver descripción
+                            completa</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+
+<!-- Modal -->
+<div id="full-description-modal" class="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Descripción completa</h5>
+                <button type="button" class="close" onclick="closeModal()">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="full-description-text"></p>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="container text-center mt-5 text-white">
+    <h3>¡Únete ahora y comparte tu talento con el mundo!</h3>
+    <li class="nav-item">
+        <a href="/users/signup" class="nav-link btn btn-primary btn-lg" role="button">Regístrate</a>
+    </li>
+</section>
